@@ -1,5 +1,5 @@
-class CreateCostumeStores < ActiveRecord::Base 
-  def change 
+class CreateCostumeStores < ActiveRecord::Base
+  def change
     
   end
 end
