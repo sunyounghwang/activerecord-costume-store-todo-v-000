@@ -9,7 +9,9 @@
 # value types according to the spec
 
 class 001_create_costumes < ActiveRecord::Migration
-  def change 
-    
+  def change
+    create_table do |t|
+      t.string :name
+    end
   end
 end
